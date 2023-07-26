@@ -1,0 +1,164 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
+
+
+body {
+    display: flex;
+    justify-content: center;
+    color: #b85747;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    }
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@keyframes floatIn {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    animation: floatIn 1s ease-out 2s forwards;
+}
+
+.mapbutton:not(:last-child) {
+  border-radius: 5px;
+  background-color: #73a892;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 3px 3px;
+  margin-right: 10px;
+}
+
+.mapbutton:last-child {
+  border-radius: 5px;
+  background-color: #73a892;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 3px 3px;
+}
+
+.mapbutton:hover {
+  background-color: #5F8575;
+}
+
+
+.carousel {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    overflow: hidden;
+  }
+
+  .landing-image {
+    width: auto;
+    height: 60vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px white;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .text-and-buttons {
+    display: flex;
+    flex-direction: column;
+    height: 120px;  /* You may need to adjust this depending on your text size and button size */
+  }
+
+@media only screen and (max-width: 1000px) {
+    body {
+       margin-top: 8vh;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+      }
+
+      h1 {
+        font-size: 80px;
+        text-align: center;
+        }
+
+    h2 {
+        font-size: 60px;
+        text-align: center;
+    }
+
+
+    .landing-container {
+        text-align: left;
+
+    }
+
+    .landing-image {
+      height: 50vh;
+      width: auto;
+      border-radius: 50px;
+    }
+
+    .text-and-buttons {
+      height: auto;
+    }
+
+    .language-btn {
+      display: none;
+    }
+
+    .mapbutton:not(:last-child) {
+      border-radius: 15px;
+      background-color: #73a892;
+      border: none;
+      color: white;
+      padding: 20px 30px;
+      text-align: center;
+      text-decoration: none;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 3px 3px;
+      margin-right: 30px;
+      font-size: 50px;
+  }
+
+  .mapbutton:last-child {
+      border-radius: 15px;
+      background-color: #73a892;
+      border: none;
+      color: white;
+      padding: 20px 30px;
+      text-align: center;
+      text-decoration: none;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 3px 3px;
+      font-size: 50px;
+  }
+
+
+}
