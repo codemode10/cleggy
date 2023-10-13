@@ -9,7 +9,7 @@ body {
 }
 
 .footer {
-  color: #b85747;
+  color: #000000;
   text-align: center;
 }
 
@@ -191,12 +191,30 @@ html {
   text-align: center;
   border-radius: 20px;
   padding: 70px;
-  background-image: url("images/chavhouse.png");
+  background-image: url("images/facade_01_lowres.jpg");
   background-size: cover;
   background-position: center;
   height: 67vh;
   position: relative;
+}
 
+/* Apply the dark overlay to the background */
+.section1-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Adjust the opacity value to control darkness */
+  pointer-events: none;
+  border-radius: inherit; /* Ensure the same border-radius as the container */
+}
+
+/* Exclude specific child elements from being affected */
+.section1-container > * {
+  position: relative;
+  z-index: 1;
 }
 
 #playButton {
@@ -213,12 +231,12 @@ html {
 .banner-h1 {
   font-size: 2.3rem;
 margin-top: 50px;
-color: #b85747;
+color: #ffffff;
 }
 
 .banner-h2 {
   margin-bottom: 5vh;
-  color: #b85747;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 
@@ -239,7 +257,7 @@ color: #b85747;
 .top-button {
   margin: 10px 0;
   padding: 0.5em 1em;
-  background-color: #7ba795;
+  background-color: #bbb879;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -279,9 +297,9 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  background-color: #B85747;
+  background-color: #D5AA86;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -296,23 +314,11 @@ label, button {
   order: 1;
 }
 
-.left-section22 {
-  flex-basis: 50%;
-  margin: auto;
-  color: rgb(184, 87, 71);
-  text-align: left;
-  padding-left: 5%;
-  flex-basis: 40%;
-  order: 2;
-}
-
 .right-section22 {
-  flex-basis: 50%;
   margin: auto;
   color: rgb(184, 87, 71);
   text-align: left;
   padding-left: 5%;
-  flex-basis: 40%;
   order: 1;
 }
 
@@ -330,10 +336,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #b85747;
-  background-color: #b85747;
+  border: 2px solid #D5AA86;
+  background-color: #D5AA86;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   padding-top: 70px;
   padding-bottom: 90px;
 }
@@ -342,7 +348,7 @@ label, button {
   flex-basis: 50%;
   margin-right: 5%;
   margin: auto;
-  color: #b85747;
+  color: #D5AA86;
   text-align: left;
   padding-left: 5%;
 }
@@ -357,10 +363,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #b85747;
-  background-color: #b85747;
+  border: 2px solid #D5AA86;
+  background-color: #D5AA86;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -384,10 +390,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #b85747;
-  background-color: #b85747;
+  border: 2px solid #D5AA86;
+  background-color: #D5AA86;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -397,10 +403,10 @@ label, button {
   flex-direction: column;
   border-radius: 20px;
   padding: 50px;
-  border: 2px solid #7ba795;
-  background-color: #7ba795;
+  border: 2px solid #D5AA86;
+  background-color: #D5AA86;
   margin-bottom: 4vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   text-align: center;
 }
 
@@ -427,7 +433,7 @@ label, button {
   border: 2px solid #b85747;
   background-color: #b85747;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
 }
 
 .left-section10 {
@@ -449,10 +455,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #b85747;
-  background-color: #b85747;
+  border: 2px solid #D5AA86;
+  background-color: #D5AA86;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -484,10 +490,10 @@ label, button {
   justify-content: space-between;
   border-radius: 50px;
   padding: 70px;
-  border: 2px solid #b85747;
+
   background-color: #b85747;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
 
 }
 
@@ -673,7 +679,7 @@ float: left;
 margin-left: 50px;
 }
 .img5 {
-max-width: 60%;
+max-width: 50%;
 height: auto;
 
 }
@@ -717,13 +723,13 @@ box-shadow: 5px 5px;
   .banner-h1 {
     font-size: 2rem;
     margin-top: 10px;
-    color: #b85747;
+    color: #ffffff;
     }
 
     .banner-h2 {
       font-size: 1rem;
       margin-top: 30px;
-      color: #b85747;
+      color: #ffffff;
       }
 
 
@@ -769,7 +775,7 @@ box-shadow: 5px 5px;
 .top-button {
   margin: 7px 0;
   padding: 0.7em 1em;
-  background-color: #7ba795;
+  background-color: #bbb879;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -790,7 +796,7 @@ box-shadow: 5px 5px;
   border-radius: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
 }
 
 .left-section2 {
@@ -811,7 +817,7 @@ box-shadow: 5px 5px;
   border-radius: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
 }
 
 .left-section22 {
@@ -837,7 +843,7 @@ box-shadow: 5px 5px;
   padding: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   order: 2;
 }
 
@@ -862,7 +868,7 @@ box-shadow: 5px 5px;
   padding: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   order: 2;
 }
 
@@ -892,9 +898,8 @@ box-shadow: 5px 5px;
   border-radius: 30px;
   padding: 30px;
   padding-bottom: 60px;
-  border: 1px solid #b85747;
   height: auto;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
 }
 
 .left-section4 {
@@ -917,8 +922,7 @@ box-shadow: 5px 5px;
   border-radius: 30px;
   padding: 30px;
   padding-bottom: 5vh;
-  border: 1px solid #b85747;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   text-align: center;
 
 }
@@ -940,7 +944,7 @@ box-shadow: 5px 5px;
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
 
 }
 
@@ -1045,7 +1049,7 @@ font-size: 2rem;
   border: none;
   outline: none;
   background-color: #73a892;
-  color: #ff9888;
+  color: #E3D4BF;
   cursor: pointer;
   padding: 30px 40px;
   border-radius: 10px;
@@ -1084,10 +1088,9 @@ font-size: 2rem;
   flex-direction: column;
   border-radius: 30px;
   padding: 30px;
-  border: 2px solid #7ba795;
-  background-color: #7ba795;
+  background-color: #D5AA86;
   margin-bottom: 4vh;
-  box-shadow: 7px 7px #ff9888;
+  box-shadow: 7px 7px #E3D4BF;
   text-align: center;
 }
 

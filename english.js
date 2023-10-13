@@ -39,8 +39,8 @@ const typeText = (elementId, text, speed, callback) => {
 
 
 document.addEventListener('DOMContentLoaded', () => {
-  typeText('typing-h1', 'Yo Yo Yo', 60, () => {
-    typeText('typing-h2', '15 September 2023', 60)
+  typeText('typing-h1', 'Welcome to the wedding of Flore and Alex', 60, () => {
+    typeText('typing-h2', '6 July 2024', 60)
   });
 
 });

@@ -93,6 +93,15 @@ h2 {
     height: 120px;  /* You may need to adjust this depending on your text size and button size */
   }
 
+  .landing {
+    display: flex;
+  }
+
+  .landing_card {
+    display: table-column;
+  }
+
+    
 @media only screen and (max-width: 1000px) {
     body {
        margin-top: 8vh;
