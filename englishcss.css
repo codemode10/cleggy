@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap');
 
+img.Logo {
+  width: 40px;
+  height: 40px;
+}
+
+/* Center the bullet points and align them next to the word */
+.section2-container ul {
+  text-align: left; /* Adjust text alignment if needed */
+  padding-left: 0px;
+}
+
+.section2-container ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: white;
+  padding-left: 0px;
+}
+
+
+/* Add bullet point before each list item */
+.section2-container ul li::before {
+  content: "\2022"; /* Use a bullet point character */
+  font-size: 18px; /* Adjust the size of the bullet point */
+  margin-right: 5px; /* Adjust spacing between the bullet point and text */
+}
+
 
 
 body {
@@ -15,8 +43,9 @@ body {
 
 .footer-container {
   display: flex;
-  align-items: center; /* optional: aligns items vertically in the center */
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .github-icon {
@@ -471,9 +500,6 @@ label, button {
   color: #b85747;
   text-align: right;
   padding-right: 5%;
-
-
-
 }
 
 .right-section5 {
@@ -481,7 +507,6 @@ label, button {
   margin: auto;
   color: #b85747;
   text-align: left;
-  margin-left: 3%;
   order: 1;
 }
 
@@ -685,7 +710,7 @@ height: auto;
 }
 
 .img10 {
-max-width: 57%;
+max-width: 40%;
 height: auto;
 float: right;
 margin-right: 40px;
@@ -886,7 +911,7 @@ box-shadow: 5px 5px;
 }
 
 .img3 {
-  max-width: 55%;
+  max-width: 45%;
   height: auto;
   margin-right: 0px;
 
@@ -1008,13 +1033,13 @@ font-size: 2rem;
 }
 
 .img4 {
-  max-width: 50%;
+  max-width: 30%;
   height: auto;
   float: center;
   margin: 0;
 }
 .img5 {
-  max-width: 65%;
+  max-width: 40%;
   height: auto;
   margin-left: 0;
 }
@@ -1066,7 +1091,7 @@ font-size: 2rem;
 }
 
 .img10 {
-  max-width: 60%;
+  max-width: 30%;
   height: auto;
   margin-right: 0;
 }
@@ -1101,6 +1126,29 @@ font-size: 2rem;
 .img30 {
   max-width: 70%;
   margin-right: 0px;
+  }
+
+  .section2-container ul {
+    text-align: center; /* Adjust text alignment if needed */
+    padding-left: 0px;
+  }
+
+  .section2-container ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Add this line to center horizontally */
+    font-size: 16px;
+    color: white;
+    padding-left: 0px;
+  }
+
+
+  /* Add bullet point before each list item */
+  .section2-container ul li::before {
+    content: "\2022"; /* Use a bullet point character */
+    font-size: 18px; /* Adjust the size of the bullet point */
+    margin-right: 5px; /* Adjust spacing between the bullet point and text */
   }
 
 }
