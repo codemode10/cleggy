@@ -180,6 +180,10 @@ margin-bottom: 3vh;
   animation-delay: 4.7s;
 }
 
+.line-up:nth-child(7) {
+  animation-delay: 4.7s;
+}
+
 @keyframes float-up {
   from { transform: translateY(0); }
   to { transform: translateY(-10px); }
