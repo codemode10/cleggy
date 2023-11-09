@@ -20,15 +20,12 @@ img.Logo {
   padding-left: 0px;
 }
 
-
 /* Add bullet point before each list item */
 .section2-container ul li::before {
   content: "\2022"; /* Use a bullet point character */
   font-size: 18px; /* Adjust the size of the bullet point */
   margin-right: 5px; /* Adjust spacing between the bullet point and text */
 }
-
-
 
 body {
   font-family: 'Josefin Sans', sans-serif;
@@ -210,7 +207,7 @@ html {
 }
 
 #myBtn:hover {
-  background-color: #5F8575;
+  background-color: #db9162;
 }
 
 .page-container {
@@ -290,7 +287,7 @@ color: #ffffff;
 .top-button {
   margin: 10px 0;
   padding: 0.5em 1em;
-  background-color: #bbb879;
+  background-color: #FDB181;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -330,9 +327,9 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  background-color: #D5AA86;
+  background-color: #FFC971;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -369,10 +366,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #D5AA86;
-  background-color: #D5AA86;
+  border: 2px solid #FFC971;
+  background-color: #FFC971;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   padding-top: 70px;
   padding-bottom: 90px;
 }
@@ -381,7 +378,7 @@ label, button {
   flex-basis: 50%;
   margin-right: 5%;
   margin: auto;
-  color: #D5AA86;
+  color: #FFC971;
   text-align: left;
   padding-left: 5%;
 }
@@ -396,10 +393,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #D5AA86;
-  background-color: #D5AA86;
+  border: 2px solid #FFC971;
+  background-color: #FFC971;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -423,10 +420,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #D5AA86;
-  background-color: #D5AA86;
+  border: 2px solid #FFC971;
+  background-color: #FFC971;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   padding-top: 70px;
   padding-bottom: 70px;
 }
@@ -436,10 +433,10 @@ label, button {
   flex-direction: column;
   border-radius: 20px;
   padding: 50px;
-  border: 2px solid #D5AA86;
-  background-color: #D5AA86;
+  border: 2px solid #FFC971;
+  background-color: #FFC971;
   margin-bottom: 4vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   text-align: center;
 }
 
@@ -466,7 +463,7 @@ label, button {
   border: 2px solid #b85747;
   background-color: #b85747;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
 }
 
 .left-section10 {
@@ -488,10 +485,10 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #D5AA86;
-  background-color: #D5AA86;
+  border: 2px solid #FFC971;
+  background-color: #FFC971;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -522,7 +519,7 @@ label, button {
 
   background-color: #b85747;
   margin-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
 
 }
 
@@ -738,7 +735,7 @@ box-shadow: 3px 3px;
 }
 
 .mapbutton:hover {
-background-color: #5F8575;
+background-color: #db9162;
 box-shadow: 5px 5px;
 
 }
@@ -804,7 +801,7 @@ box-shadow: 5px 5px;
 .top-button {
   margin: 7px 0;
   padding: 0.7em 1em;
-  background-color: #bbb879;
+  background-color: #FDB181;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -815,7 +812,7 @@ box-shadow: 5px 5px;
 }
 
 .top-button:hover {
-  background-color: #5F8575;
+  background-color: #db9162;
   color: white;
 }
 
@@ -825,7 +822,7 @@ box-shadow: 5px 5px;
   border-radius: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
 }
 
 .left-section2 {
@@ -846,7 +843,7 @@ box-shadow: 5px 5px;
   border-radius: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
 }
 
 .left-section22 {
@@ -872,7 +869,7 @@ box-shadow: 5px 5px;
   padding: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   order: 2;
 }
 
@@ -897,7 +894,7 @@ box-shadow: 5px 5px;
   padding: 30px;
   padding: 30px;
   border: none;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   order: 2;
 }
 
@@ -928,7 +925,7 @@ box-shadow: 5px 5px;
   padding: 30px;
   padding-bottom: 60px;
   height: auto;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
 }
 
 .left-section4 {
@@ -951,7 +948,7 @@ box-shadow: 5px 5px;
   border-radius: 30px;
   padding: 30px;
   padding-bottom: 5vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   text-align: center;
 
 }
@@ -973,7 +970,7 @@ box-shadow: 5px 5px;
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
 
 }
 
@@ -1064,7 +1061,7 @@ font-size: 2rem;
 }
 
 .mapbutton:hover {
-  background-color: #5F8575;
+  background-color: #db9162;
   box-shadow: 15px 15px;
 
 }
@@ -1078,7 +1075,7 @@ font-size: 2rem;
   border: none;
   outline: none;
   background-color: #73a892;
-  color: #E3D4BF;
+  color: #FDB181;
   cursor: pointer;
   padding: 30px 40px;
   border-radius: 10px;
@@ -1086,7 +1083,7 @@ font-size: 2rem;
 }
 
 #myBtn:hover {
-  background-color: #5F8575;
+  background-color: #db9162;
 }
 .upload-div {
   display: flex;
@@ -1117,9 +1114,9 @@ font-size: 2rem;
   flex-direction: column;
   border-radius: 30px;
   padding: 30px;
-  background-color: #D5AA86;
+  background-color: #FFC971;
   margin-bottom: 4vh;
-  box-shadow: 7px 7px #E3D4BF;
+  box-shadow: 7px 7px #FDB181;
   text-align: center;
 }
 
