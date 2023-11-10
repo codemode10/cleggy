@@ -287,7 +287,7 @@ color: #ffffff;
 .top-button {
   margin: 10px 0;
   padding: 0.5em 1em;
-  background-color: #7fc6a4;
+  background-color: #7299A7;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -310,7 +310,7 @@ label, button {
 
 
 .top-button:hover {
-  background-color: #d6f8d6;
+  background-color: #96c4d5;
   color: white;
   box-shadow: 6px 6px;
 }
@@ -801,7 +801,7 @@ box-shadow: 5px 5px;
 .top-button {
   margin: 7px 0;
   padding: 0.7em 1em;
-  background-color: #7fc6a4;
+  background-color: #7299A7;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -812,7 +812,7 @@ box-shadow: 5px 5px;
 }
 
 .top-button:hover {
-  background-color: #d6f8d6;
+  background-color: #8bb8c8;
   color: white;
 }
 
