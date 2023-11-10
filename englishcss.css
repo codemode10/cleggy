@@ -207,7 +207,7 @@ html {
 }
 
 #myBtn:hover {
-  background-color: #db9162;
+  background-color: #d6f8d6;
 }
 
 .page-container {
@@ -287,7 +287,7 @@ color: #ffffff;
 .top-button {
   margin: 10px 0;
   padding: 0.5em 1em;
-  background-color: #d6f8d6;
+  background-color: #7fc6a4;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -310,7 +310,7 @@ label, button {
 
 
 .top-button:hover {
-  background-color: #7ba795;
+  background-color: #d6f8d6;
   color: white;
   box-shadow: 6px 6px;
 }
@@ -327,7 +327,7 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  background-color: #d6f8d6;
+  background-color: #7fc6a4;
   margin-bottom: 5vh;
   box-shadow: 7px 7px #d6f8d6;
   padding-top: 70px;
@@ -366,8 +366,8 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #d6f8d6;
-  background-color: #d6f8d6;
+  border: 2px solid #7fc6a4;
+  background-color: #7fc6a4;
   margin-bottom: 5vh;
   box-shadow: 7px 7px #d6f8d6;
   padding-top: 70px;
@@ -378,7 +378,7 @@ label, button {
   flex-basis: 50%;
   margin-right: 5%;
   margin: auto;
-  color: #d6f8d6;
+  color: #7fc6a4;
   text-align: left;
   padding-left: 5%;
 }
@@ -393,8 +393,8 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #d6f8d6;
-  background-color: #d6f8d6;
+  border: 2px solid #7fc6a4;
+  background-color: #7fc6a4;
   margin-bottom: 5vh;
   box-shadow: 7px 7px #d6f8d6;
   padding-top: 70px;
@@ -420,8 +420,8 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #d6f8d6;
-  background-color: #d6f8d6;
+  border: 2px solid #7fc6a4;
+  background-color: #7fc6a4;
   margin-bottom: 5vh;
   box-shadow: 7px 7px #d6f8d6;
   padding-top: 70px;
@@ -433,8 +433,8 @@ label, button {
   flex-direction: column;
   border-radius: 20px;
   padding: 50px;
-  border: 2px solid #d6f8d6;
-  background-color: #d6f8d6;
+  border: 2px solid #7fc6a4;
+  background-color: #7fc6a4;
   margin-bottom: 4vh;
   box-shadow: 7px 7px #d6f8d6;
   text-align: center;
@@ -460,8 +460,8 @@ label, button {
   border-radius: 20px;
   padding: 30px;
   height: 60vh;
-  border: 2px solid #b85747;
-  background-color: #b85747;
+  border: 2px solid #7fc6a4;
+  background-color: #7fc6a4;
   margin-bottom: 5vh;
   box-shadow: 7px 7px #d6f8d6;
 }
@@ -485,8 +485,8 @@ label, button {
   justify-content: space-between;
   border-radius: 20px;
   padding: 30px;
-  border: 2px solid #d6f8d6;
-  background-color: #d6f8d6;
+  border: 2px solid #7fc6a4;
+  background-color: #7fc6a4;
   margin-bottom: 5vh;
   box-shadow: 7px 7px #d6f8d6;
   padding-top: 60px;
@@ -517,7 +517,7 @@ label, button {
   border-radius: 50px;
   padding: 70px;
 
-  background-color: #b85747;
+  background-color: #7fc6a4;
   margin-bottom: 5vh;
   box-shadow: 7px 7px #d6f8d6;
 
@@ -735,7 +735,7 @@ box-shadow: 3px 3px;
 }
 
 .mapbutton:hover {
-background-color: #db9162;
+background-color: #d6f8d6;
 box-shadow: 5px 5px;
 
 }
@@ -801,7 +801,7 @@ box-shadow: 5px 5px;
 .top-button {
   margin: 7px 0;
   padding: 0.7em 1em;
-  background-color: #d6f8d6;
+  background-color: #7fc6a4;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -812,7 +812,7 @@ box-shadow: 5px 5px;
 }
 
 .top-button:hover {
-  background-color: #db9162;
+  background-color: #d6f8d6;
   color: white;
 }
 
@@ -1061,7 +1061,7 @@ font-size: 2rem;
 }
 
 .mapbutton:hover {
-  background-color: #db9162;
+  background-color: #d6f8d6;
   box-shadow: 15px 15px;
 
 }
@@ -1075,7 +1075,7 @@ font-size: 2rem;
   border: none;
   outline: none;
   background-color: #73a892;
-  color: #d6f8d6;
+  color: #7fc6a4;
   cursor: pointer;
   padding: 30px 40px;
   border-radius: 10px;
@@ -1083,7 +1083,7 @@ font-size: 2rem;
 }
 
 #myBtn:hover {
-  background-color: #db9162;
+  background-color: #d6f8d6;
 }
 .upload-div {
   display: flex;
@@ -1114,9 +1114,9 @@ font-size: 2rem;
   flex-direction: column;
   border-radius: 30px;
   padding: 30px;
-  background-color: #d6f8d6;
+  background-color: #7fc6a4;
   margin-bottom: 4vh;
-  box-shadow: 7px 7px #d6f8d6;
+  box-shadow: 7px 7px #7fc6a4;
   text-align: center;
 }
 
