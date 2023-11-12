@@ -5,6 +5,29 @@ img.Logo {
   height: 40px;
 }
 
+.image-only-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  width: 60%;
+  box-shadow: 7px 7px white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6vh; /* Adjust the vertical margin as needed */
+  margin-bottom: 40px;
+
+}
+
+.image-only {
+  width: 100%;
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+
+
+
 /* Center the bullet points and align them next to the word */
 .section2-container ul {
   text-align: left; /* Adjust text alignment if needed */
@@ -1116,7 +1139,7 @@ font-size: 2rem;
   padding: 30px;
   background-color: #7fc6a4;
   margin-bottom: 4vh;
-  box-shadow: 7px 7px #7fc6a4;
+  box-shadow: 7px 7px #d6f8d6;
   text-align: center;
 }
 
@@ -1150,6 +1173,26 @@ font-size: 2rem;
     content: "\2022"; /* Use a bullet point character */
     font-size: 18px; /* Adjust the size of the bullet point */
     margin-right: 5px; /* Adjust spacing between the bullet point and text */
+  }
+
+  .image-only-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 7px 7px white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh; /* Adjust the vertical margin as needed */
+    margin-bottom: 40px;
+
+  }
+
+  .image-only {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: fill;
   }
 
 }
