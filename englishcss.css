@@ -177,31 +177,31 @@ margin-bottom: 3vh;
 }
 
 .line-up:nth-child(1) {
-  animation-delay: 4.2s;
+  animation-delay: 3.2s;
 }
 
 .line-up:nth-child(2) {
-  animation-delay: 4.3s;
+  animation-delay: 3.3s;
 }
 
 .line-up:nth-child(3) {
-  animation-delay: 4.4s;
+  animation-delay: 3.4s;
 }
 
 .line-up:nth-child(4) {
-  animation-delay: 4.5s;
+  animation-delay: 3.5s;
 }
 
 .line-up:nth-child(5) {
-  animation-delay: 4.6s;
+  animation-delay: 3.6s;
 }
 
 .line-up:nth-child(6) {
-  animation-delay: 4.7s;
+  animation-delay: 3.7s;
 }
 
 .line-up:nth-child(7) {
-  animation-delay: 4.7s;
+  animation-delay: 3.8s;
 }
 
 @keyframes float-up {
